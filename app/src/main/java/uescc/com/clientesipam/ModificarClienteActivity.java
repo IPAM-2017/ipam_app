@@ -16,35 +16,6 @@ import android.widget.Toast;
 
 public class ModificarClienteActivity extends AppCompatActivity {
 
-  /*  EditText nombreCli;
-    EditText apellidosCli;
-    EditText duiCli;
-    EditText codigoCli;
-
-
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_modificar_cliente);
-        Bundle extras = getIntent().getExtras();
-
-        nombreCli = (EditText) findViewById(R.id.nombreText);
-        nombreCli.setText(extras.getString("nombre"));
-        apellidosCli = (EditText) findViewById(R.id.apellidoText);
-        apellidosCli.setText(extras.getString("apellido"));
-        duiCli = (EditText) findViewById(R.id.duiText);
-        duiCli.setText(extras.getString("dui"));
-        codigoCli = (EditText) findViewById(R.id.codigoText);
-        codigoCli.setText(extras.getString("codigo"));
-
-
-
-
-    }
-*/
-
-
     Spinner cmbModoPago;
     EditText nombreCli;
     EditText apellidosCli;
@@ -172,7 +143,6 @@ public class ModificarClienteActivity extends AppCompatActivity {
             MainActivity.clientes.set(Integer.parseInt(codigoCli.getText().toString())-1, cliente);
             Toast.makeText(getApplicationContext(), "Modificado : " + MainActivity.clientes.get(MainActivity.clientes.size()-1).getNombreCli().toString(), Toast.LENGTH_LONG).show();
             this.cliente = new Cliente();
-            limpiarForm();
             finish();
 
         }
