@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ClientesIPAM</string>
+    <string name="lbl_codigo">Codigo</string>
+    <string name="lbl_dui">DUI</string>
+    <string name="lbl_nombre">Nombre</string>
+    <string name="lbl_apellidos">Apellidos</string>
+    <string name="lbl_tipocliente">Tipo Cliente</string>
+    <string name="lbl_modopago">Modo Pago</string>
+    <string name="tipo_minorista">Minorista</string>
+    <string name="tipo_mayorista">Mayorista</string>
+    <string name="msg_llenarTodo">Lleno todos lo campos por favor</string>
+    <string name="msg_agregado">Agregado</string>
+    <string name="agregar">Agregar</string>
+    <string name="modificar">Modificar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string-array name="tipo_cliente">
+        <item>Credito</item>
+        <item>Contado</item>
+        <item>Anticipado</item>
+    </string-array>
+</resources>
